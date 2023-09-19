@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Add these styles to your CSS file, e.g., styles.css */
+
+/* Sunny background */
+/* Add these styles to your CSS file, e.g., styles.css */
+
+.bg-sunny {
+  background-image: url('https://media.tenor.com/AXST3pQh5r8AAAAd/sunny-day-when-sharks-attack.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-rainy {
+  background-image: url('https://media.tenor.com/MWsV17cvpwMAAAAC/rain-raining.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-cloudy {
+  background-image: url('https://www.adventurebikerider.com/wp-content/uploads/2017/10/tumblr_o27c7fByaO1tchrkco1_500.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-windy {
+  background-image: url('https://media.tenor.com/NyB6CSxBjIoAAAAC/hurricane-windy.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-mist{
+  background-image: url('https://thoughtsofwordsblog.files.wordpress.com/2017/01/tumblr_nijo7fzhbz1qg20oho1_500.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* Add these styles to your CSS file */
+
+html,
+body .deva {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrolling */
+}
+/* Add these styles to your CSS file if you have a container element */
+
+.deva {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
